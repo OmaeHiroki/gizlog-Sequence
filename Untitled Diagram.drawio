@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T04:54:29.222Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="L_wFNMyOgwC3R80-1fVi" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T05:28:57.569Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="WmhzWtDYf3Atd0QrLBIk" version="17.4.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1186" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1130" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,18 +10,20 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="35" y="80" width="10" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":middlewear" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":middleware" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="80" width="80" height="560" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="35" y="80" width="10" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="lYFfkbvWak5rd_vfTRGr-17" value="保存済みレコード表示" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
-          <mxGeometry x="0.6522" relative="1" as="geometry">
-            <mxPoint x="-70" y="320" as="targetPoint" />
-            <mxPoint x="275" y="319.9999999999998" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="lYFfkbvWak5rd_vfTRGr-43" value="&lt;font color=&quot;#ff0000&quot;&gt;opt&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="-150" y="210" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lYFfkbvWak5rd_vfTRGr-42" value="&lt;font color=&quot;#ff0000&quot;&gt;opt&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#FF0000;shadow=0;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="-150" y="130" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lYFfkbvWak5rd_vfTRGr-46" value="バリデーションエラー" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;shadow=0;fontFamily=Helvetica;fontSize=12;fontColor=#FF0000;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="-70" y="220" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="ログイン画面表示&#xa;" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
           <mxGeometry x="-0.0909" y="10" relative="1" as="geometry">
@@ -80,10 +82,10 @@
             <mxPoint x="679.5" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lYFfkbvWak5rd_vfTRGr-19" value="バリデーションエラー" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="lYFfkbvWak5rd_vfTRGr-19" value="" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry x="0.3778" relative="1" as="geometry">
-            <mxPoint x="90" y="320" as="targetPoint" />
-            <mxPoint x="315" y="319.9999999999998" as="sourcePoint" />
+            <mxPoint x="90" y="319.52" as="targetPoint" />
+            <mxPoint x="315" y="319.51999999999975" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -172,6 +174,29 @@
             <mxPoint x="555" y="560.44" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lYFfkbvWak5rd_vfTRGr-44" value="&lt;font color=&quot;#ff0000&quot;&gt;ユーザ未認証&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="240" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lYFfkbvWak5rd_vfTRGr-17" value="確認画面表示" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="0.6522" relative="1" as="geometry">
+            <mxPoint x="90" y="440" as="targetPoint" />
+            <mxPoint x="435" y="439.9999999999998" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lYFfkbvWak5rd_vfTRGr-47" value="&lt;font color=&quot;#ff0000&quot;&gt;opt&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="370" width="450" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lYFfkbvWak5rd_vfTRGr-48" value="" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=-0.014;entryY=1.062;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="lYFfkbvWak5rd_vfTRGr-49">
+          <mxGeometry x="0.3778" relative="1" as="geometry">
+            <mxPoint x="205" y="400" as="targetPoint" />
+            <mxPoint x="435" y="400" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lYFfkbvWak5rd_vfTRGr-49" value="バリデーションエラー" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;shadow=0;fontFamily=Helvetica;fontSize=12;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="90" y="380" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
